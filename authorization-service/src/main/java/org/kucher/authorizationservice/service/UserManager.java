@@ -61,7 +61,7 @@ public class UserManager implements IUserService {
             read.setRole(userDTO.getRole());
 
             if(validate(read)) {
-                User user = this.mapToEntity(userDTO);
+                User user = this.mapToEntity(read);
 
                 dao.save(user);
             }

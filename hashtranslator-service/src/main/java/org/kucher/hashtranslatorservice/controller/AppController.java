@@ -9,7 +9,6 @@ import org.kucher.hashtranslatorservice.service.dto.AppHashResult;
 import org.kucher.hashtranslatorservice.service.utils.HashConverterUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
